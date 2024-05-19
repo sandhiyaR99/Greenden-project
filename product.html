@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link href="
+    https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+    " rel="stylesheet">
+</head>
+<body>
+    <nav class="bg-green-100 flex items-center justify-between p-6 shadow-xl sticky top-0 z-10">
+        <h1 class="text-3xl">Greenden</h1>
+        <svg id="menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class="gap-3 hidden md:flex">
+            <li class=" hover:text-gray-500 hover:underline">
+                <a href="index.html">Home</a>
+            </li>
+            <li class=" hover:text-gray-500 hover:underline">
+                <a href="product.html">Products</a>
+            </li>
+            <li class=" hover:text-gray-500 hover:underline">
+                <a href="">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vb; right: -50%;">
+        <div id="sidenavx" class="text-right p-5 cursor-pointer">X</div>
+        <ul class="flex flex-col items-center gap-10">
+            <li class=" hover:text-gray-500 hover:underline">
+                <a href="index.html">Home</a>
+            </li>
+            <li class=" hover:text-gray-500 hover:underline">
+                <a href="product.html">Products</a>
+            </li>
+            <li class=" hover:text-gray-500 hover:underline">
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </section>
+
+    <h1 class="text-3xl font-bold text-center mt-10">Our products</h1>
+    <div id="search" class="text-center m-5"><input type="text" placeholder="Search for a product" class="p-3 border border-black w-2/3"></div>
+
+    <div id="container" class="grid grid-cols-2 md:grid-cols-4 text-center gap-5 mt-10">
+        <div>
+            <img src="./image/1.png" class="inline transform hover:-translate-y-2  hover:shadow-2xl">
+            <h3>Rose plant</h3>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./image/1.png" class="inline transform hover:-translate-y-2  hover:shadow-2xl">
+            <h3>lilly plant</h3>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./image/1.png" class="inline transform hover:-translate-y-2  hover:shadow-2xl">
+            <h3>Rose plant</h3>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./image/1.png" class="inline transform hover:-translate-y-2  hover:shadow-2xl">
+            <h3>Rose plant</h3>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./image/1.png" class="inline transform hover:-translate-y-2  hover:shadow-2xl">
+            <h3>Rose plant</h3>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./image/1.png" class="inline transform hover:-translate-y-2  hover:shadow-2xl">
+            <h3>Rose plant</h3>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./image/1.png" class="inline transform hover:-translate-y-2  hover:shadow-2xl">
+            <h3>Rose plant</h3>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./image/1.png" class="inline transform hover:-translate-y-2  hover:shadow-2xl">
+            <h3>Rose plant</h3>
+            <p>$20</p>
+        </div>
+    </div>
+    <footer class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="font-bold text-2xl">Greenden</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quod culpa possimus illo doloremque officia
+            vitae sapiente, non modi itaque numquam in at ut deserunt, unde dolor nostrum? Doloribus, dolores?</p>
+        <p>&copy;2024 Greenden.com</p>
+    </footer>
+
+    <script src="product.js"></script>
+</body>
+</html>
